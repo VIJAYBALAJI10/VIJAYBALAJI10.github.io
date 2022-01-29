@@ -235,6 +235,10 @@ img{
 .about__subtitle{
   margin-bottom: var(--mb-2);
 }
+.about__img{
+  max-width: 300px;
+  max-height: 300px;
+}
 
 
 /* ===== SKILLS =====*/
@@ -245,8 +249,9 @@ img{
 .skills__subtitle{
   margin-bottom: var(--mb-2);
 }
-.skills__text{
+.skills__text, .about__text{
   margin-bottom: var(--mb-4);
+  text-align: justify;
 }
 .skills__data{
   display: flex;
@@ -278,16 +283,16 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 95%;
+  width: 75%;
 }
 .skills__css{
-  width: 85%;
-}
-.skills__js{
   width: 65%;
 }
+.skills__mm{
+  width: 90%;
+}
 .skills__ux{
-  width: 85%;
+  width: 80%;
 }
 .skills__img{
   border-radius: .5rem;
@@ -331,7 +336,7 @@ img{
 }
 .contact__social{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .contact__social-icon{
   width: max-content;
