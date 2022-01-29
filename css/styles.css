@@ -230,7 +230,7 @@ img{
 /* ===== ABOUT =====*/
 .about__container{
   row-gap: 2rem;
-  margin: 0px 300px;
+  margin: 0px 300px
   text-align: center;
 }
 .about__subtitle{
